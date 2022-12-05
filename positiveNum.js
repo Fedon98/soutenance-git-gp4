@@ -1,7 +1,7 @@
 function testNum(a) {
   let result;
   if (a > 0) {
-    result = 'positive';
+    result = 'very positive';
   } else {
     result = 'NOT positive';
   }
