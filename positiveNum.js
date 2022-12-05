@@ -1,11 +1,11 @@
 function testNum(a) {
-    let result;
-    if (a > 0) {
-      result = 'positive';
-    } else {
-      result = 'NOT positive';
-    }
-    return result;
+  let result;
+  if (a > 0) {
+    result = 'positive';
+  } else {
+    result = 'NOT positive';
   }
-  
-  console.log(testNum(-5));
+  return result;
+}
+
+// console.log(testNum(-5));
