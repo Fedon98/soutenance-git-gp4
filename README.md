@@ -1,14 +1,11 @@
 # soutenance-git-gp4
 
-## Description of the projet 
-
+## Description of the project
+### Super description du projet
 
 ## Commands
-
-
-## Contributing
-
-Pull requests mandatory on every branch
-For major changes, open an issue
-
+Cette commande doit être impérativement éxécutée pour le bon fonctionnement du projet
+```
+npm install
+```
 ## License

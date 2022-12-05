@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+for line in $(git ls-files "*.js")
+do
+    if ! ./node_modules/.bin/eslint --fix $line; then
+        echo "UNE ERREUR EST SURVENUE, COMMIT ANNULE"
+        exit 1
+    fi
+    git add $line
+done
+
+exit 0
