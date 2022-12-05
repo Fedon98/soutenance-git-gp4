@@ -1,4 +1,4 @@
-afunctin testNum(a) {
+function testNum(a) {
   let result;
   if (a > 0) {
     result = 'positive';
