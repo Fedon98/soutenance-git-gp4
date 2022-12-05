@@ -1,0 +1,26 @@
+{
+  "name": "repo_partiel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "positiveNum.js",
+  "scripts": {
+    "preinstall": "bash ./setup_scripts/setup-git-hooks.sh",
+    "revert": "bash ./setup_scripts/setup-git-hooks.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fedon98/soutenance-git-gp4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fedon98/soutenance-git-gp4/issues"
+  },
+  "homepage": "https://github.com/Fedon98/soutenance-git-gp4#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
